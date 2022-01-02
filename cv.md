@@ -35,3 +35,11 @@ String.prototype.toJadenCase = function () {
 ## Experience
 
 ### [Safari](https://github.com/nick-levshin/Safari)
+
+### [TG Graph](https://github.com/nick-levshin/TG-Graph)
+
+## Education
+
+- RS School #Stage0
+- Donetsk National Technical University
+- HTML Academy
