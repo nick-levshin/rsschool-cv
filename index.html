@@ -121,6 +121,186 @@
             </li>
           </ul>
         </main>
+
+        <section class="code">
+          <div class="title">
+            <i class="fas fa-code icon"></i>
+            <h2 class="section__title experience__title">Code</h2>
+          </div>
+          <pre>
+      export function toCoords(xRatio, yRatio, DPI_HEIGHT, PADDING, yMin) { 
+        return (col) => 
+          col 
+            .map((y, i) => [ 
+              Math.floor((i - 1) * xRatio),
+              Math.floor(DPI_HEIGHT - PADDING - (y - yMin) / yRatio), 
+            ])
+            .filter((_, i) => i !== 0); }
+          </pre>
+        </section>
+
+        <section class="skills">
+          <div class="title">
+            <i class="fas fa-cogs icon"></i>
+            <h2 class="section__title experience__title">Skills</h2>
+          </div>
+          <ul class="skills__list">
+            <li class="skills__list-item">
+              Hard
+              <ul>
+                <li class="skills__list-skill">
+                  <p class="skills__list-name">HTML</p>
+                  <img
+                    src="./images/dots-5.png"
+                    alt="5"
+                    class="skills__list-img"
+                  />
+                </li>
+                <li class="skills__list-skill">
+                  <p class="skills__list-name">CSS</p>
+                  <img
+                    src="./images/dots-5.png"
+                    alt="5"
+                    class="skills__list-img"
+                  />
+                </li>
+                <li class="skills__list-skill">
+                  <p class="skills__list-name">JavaScript</p>
+                  <img
+                    src="./images/dots-4.png"
+                    alt="4"
+                    class="skills__list-img"
+                  />
+                </li>
+                <li class="skills__list-skill">
+                  <p class="skills__list-name">WebPack</p>
+                  <img
+                    src="./images/dots-3.png"
+                    alt="3"
+                    class="skills__list-img"
+                  />
+                </li>
+                <li class="skills__list-skill">
+                  <p class="skills__list-name">Gulp</p>
+                  <img
+                    src="./images/dots-4.png"
+                    alt="4"
+                    class="skills__list-img"
+                  />
+                </li>
+                <li class="skills__list-skill">
+                  <p class="skills__list-name">SASS / SCSS</p>
+                  <img
+                    src="./images/dots-4.png"
+                    alt="4"
+                    class="skills__list-img"
+                  />
+                </li>
+                <li class="skills__list-skill">
+                  <p class="skills__list-name">Wordpress</p>
+                  <img
+                    src="./images/dots-3.png"
+                    alt="3"
+                    class="skills__list-img"
+                  />
+                </li>
+                <li class="skills__list-skill">
+                  <p class="skills__list-name">FireBase</p>
+                  <img
+                    src="./images/dots-4.png"
+                    alt="3"
+                    class="skills__list-img"
+                  />
+                </li>
+                <li class="skills__list-skill">
+                  <p class="skills__list-name">Figma</p>
+                  <img
+                    src="./images/dots-5.png"
+                    alt="5"
+                    class="skills__list-img"
+                  />
+                </li>
+                <li class="skills__list-skill">
+                  <p class="skills__list-name">Vue 3</p>
+                  <img
+                    src="./images/dots-2.png"
+                    alt="2"
+                    class="skills__list-img"
+                  />
+                </li>
+                <li class="skills__list-skill">
+                  <p class="skills__list-name">Postgres SQL</p>
+                  <img
+                    src="./images/dots-3.png"
+                    alt="3"
+                    class="skills__list-img"
+                  />
+                </li>
+                <li class="skills__list-skill">
+                  <p class="skills__list-name">Git / GitHub</p>
+                  <img
+                    src="./images/dots-4.png"
+                    alt="4"
+                    class="skills__list-img"
+                  />
+                </li>
+              </ul>
+            </li>
+            <li class="skills__list-item">
+              Soft
+              <ul>
+                <li class="skills__list-skill">
+                  <p class="skills__list-name">Creativity</p>
+                  <img
+                    src="./images/dots-4.png"
+                    alt="4"
+                    class="skills__list-img"
+                  />
+                </li>
+                <li class="skills__list-skill">
+                  <p class="skills__list-name">Flexibility</p>
+                  <img
+                    src="./images/dots-5.png"
+                    alt="5"
+                    class="skills__list-img"
+                  />
+                </li>
+                <li class="skills__list-skill">
+                  <p class="skills__list-name">Team Work</p>
+                  <img
+                    src="./images/dots-4.png"
+                    alt="4"
+                    class="skills__list-img"
+                  />
+                </li>
+                <li class="skills__list-skill">
+                  <p class="skills__list-name">Individual Work</p>
+                  <img
+                    src="./images/dots-4.png"
+                    alt="4"
+                    class="skills__list-img"
+                  />
+                </li>
+                <li class="skills__list-skill">
+                  <p class="skills__list-name">Time management</p>
+                  <img
+                    src="./images/dots-3.png"
+                    alt="3"
+                    class="skills__list-img"
+                  />
+                </li>
+                <li class="skills__list-skill">
+                  <p class="skills__list-name">Critical thinking</p>
+                  <img
+                    src="./images/dots-4.png"
+                    alt="4"
+                    class="skills__list-img"
+                  />
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </section>
       </div>
     </div>
     <script src="./js/fontawesome.min.js"></script>
