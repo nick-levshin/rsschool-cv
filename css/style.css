@@ -134,8 +134,11 @@ body {
 }
 
 .right-side {
-  padding: 50px 75px;
+  padding: 50px 40px;
   padding-left: 40px;
+  background-image: url(../images/main-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .experience__project {
@@ -229,4 +232,48 @@ body {
 .skills__list-img {
   width: 130px;
   margin-left: 25px;
+}
+
+.education {
+  margin-top: 80px;
+}
+
+.education__list {
+  display: flex;
+  margin-top: 30px;
+  font-size: 21px;
+  margin-left: 30px;
+}
+
+.education__list-item {
+  width: 270px;
+}
+
+.education__list-item:first-child {
+  margin-right: 120px;
+}
+
+.education__list-title {
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 21px;
+  min-height: 45px;
+  margin-bottom: 10px;
+}
+
+.education__list-subtitle {
+  font-weight: 700;
+  font-size: 17px;
+  margin-top: 7px;
+}
+
+.education__list-year {
+  font-size: 17px;
+  margin-top: 11px;
+}
+
+.education__list-text {
+  font-size: 16px;
+  margin-top: 11px;
+  text-align: justify;
 }
