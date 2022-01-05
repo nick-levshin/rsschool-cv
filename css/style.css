@@ -179,7 +179,7 @@ body {
 }
 
 .code {
-  margin-top: 80px;
+  margin-top: 60px;
 }
 
 .code > pre {
@@ -191,7 +191,7 @@ body {
 }
 
 .skills {
-  margin-top: 80px;
+  margin-top: 60px;
 }
 
 .skills__list {
@@ -235,7 +235,7 @@ body {
 }
 
 .education {
-  margin-top: 80px;
+  margin-top: 60px;
 }
 
 .education__list {
@@ -276,4 +276,21 @@ body {
   font-size: 16px;
   margin-top: 11px;
   text-align: justify;
+}
+
+.languages {
+  margin-top: 60px;
+}
+
+.languages > ul {
+  flex-wrap: wrap;
+}
+
+.languages > ul > li {
+  margin-right: 120px;
+  margin-bottom: 40px;
+}
+
+.languages > ul > li > h3 {
+  min-height: auto;
 }
